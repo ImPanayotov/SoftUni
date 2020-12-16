@@ -1,0 +1,27 @@
+﻿using _01.Logger.Models.Enumerations;
+using _01.Logger.Models.Interfaces;
+
+namespace _01.Logger.Models.Appenders
+{
+    public abstract class Appender : IAppender
+    {
+        protected int messagesAppended;
+
+        protected Appender(ILayout layot, Level level)
+        {
+            this.Layout = layot;
+            this.Level = level;
+        }
+
+        public ILayout Layout { get; }
+
+        public Level Level { get; }
+
+        public abstract void Append(IError error);
+
+        public override string ToString()
+        {
+            return $"Appender type: {this.GetType().Name}, Layout type: {this.Layout.GetType().Name}, Report level: {this.Level.ToString()}, Messages appended: {this.messagesAppended}";
+        }
+    }
+}

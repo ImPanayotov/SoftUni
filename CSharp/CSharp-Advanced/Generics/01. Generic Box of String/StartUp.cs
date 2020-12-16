@@ -1,0 +1,19 @@
+﻿using System;
+
+namespace BoxOfT
+{
+    class StartUp
+    {
+        static void Main(string[] args)
+        {
+            int n = int.Parse(Console.ReadLine());
+
+            for (int i = 0; i < n; i++)
+            {
+                var currString = Console.ReadLine();
+                var currBox = new Box<string>(currString);
+                Console.WriteLine(currBox.ToString());
+            }
+        }
+    }
+}
