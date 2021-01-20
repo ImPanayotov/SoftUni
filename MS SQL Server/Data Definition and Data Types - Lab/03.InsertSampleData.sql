@@ -1,4 +1,4 @@
-INSERT INTO Clients (FirstName, LastName) VALUES
+INSERT INTO  Clients (FirstName, LastName) VALUES
 ('Gosho', 'Ivanov'),
 ('Pesho', 'Petrov'),
 ('Ivan', 'Iliev'),
