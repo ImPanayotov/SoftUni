@@ -13,6 +13,12 @@ Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Table Relations", "Table Re
 EndProject
 Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Built-In Functions", "Built-In Functions\Built-In Functions.ssmssqlproj", "{740F0304-BB1A-40F3-A7C8-FFE98DA87DC0}"
 EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Subqueries and JOINS", "Subqueries and JOINS\Subqueries and JOINS.ssmssqlproj", "{BE800390-1A77-404C-BCE4-211B4FDEF927}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Indices And Data Aggregation", "Indices And Data Aggregation\Indices And Data Aggregation.ssmssqlproj", "{5EDF4FDC-9B3A-429C-84D3-142722504A5F}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Functions, Procedures, Triggers and Transactions", "Functions, Procedures, Triggers and Transactions\Functions, Procedures, Triggers and Transactions.ssmssqlproj", "{7F6C0A9B-EF36-43C7-9D41-7770BFD217D2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Default|Default = Default|Default
@@ -22,8 +28,11 @@ Global
 		{2E4E5A73-15DC-42AA-8109-3E39D982C50B}.Default|Default.ActiveCfg = Default
 		{A3424315-02B0-409C-9A45-32BC614563C0}.Default|Default.ActiveCfg = Default
 		{854B2A4E-3F2D-4238-A16F-2C7BF3AED297}.Default|Default.ActiveCfg = Default
-		{0CFA266D-066E-4D0B-B9FB-DC4EA7DB1D4D}.Default|Default.ActiveCfg = Default
 		{740F0304-BB1A-40F3-A7C8-FFE98DA87DC0}.Default|Default.ActiveCfg = Default
+		{BE800390-1A77-404C-BCE4-211B4FDEF927}.Default|Default.ActiveCfg = Default
+		{5EDF4FDC-9B3A-429C-84D3-142722504A5F}.Default|Default.ActiveCfg = Default
+		{B3F7E966-FD55-4542-9837-850315CE859B}.Default|Default.ActiveCfg = Default
+		{7F6C0A9B-EF36-43C7-9D41-7770BFD217D2}.Default|Default.ActiveCfg = Default
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
