@@ -1,15 +1,15 @@
 <?xml version="1.0"?>
-<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="Functions, Procedures, Triggers and Transactions">
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="Triggers and Transactions">
   <Items>
     <LogicalFolder Name="Connections" Type="2" Sorted="true">
       <Items>
         <ConnectionNode Name="IMPANAYOTOV\SQLEXPRESS:IMPANAYOTOV\impan">
-          <Created>2021-02-10T16:58:48.4542957+02:00</Created>
+          <Created>2021-02-12T01:52:13.1602668+02:00</Created>
           <Type>SQL</Type>
           <Server>IMPANAYOTOV\SQLEXPRESS</Server>
           <UserName />
           <Authentication>Windows Authentication</Authentication>
-          <InitialDB>master</InitialDB>
+          <InitialDB>Diablo</InitialDB>
           <LoginTimeout>30</LoginTimeout>
           <ExecutionTimeout>0</ExecutionTimeout>
           <ConnectionProtocol>NotSpecified</ConnectionProtocol>
@@ -19,83 +19,59 @@
     </LogicalFolder>
     <LogicalFolder Name="Queries" Type="0" Sorted="true">
       <Items>
-        <FileNode Name="01.EmplWithSalaryAbove35000.sql">
+        <FileNode Name="01.CreateTableLogs.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:IMPANAYOTOV\SQLEXPRESS:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>IMPANAYOTOV\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>01.EmplWithSalaryAbove35000.sql</FullPath>
+          <FullPath>01.CreateTableLogs.sql</FullPath>
         </FileNode>
-        <FileNode Name="02.EmployeesWithSalaryAboveNumber.sql">
+        <FileNode Name="02.CreateTableEmails.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:IMPANAYOTOV\SQLEXPRESS:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>IMPANAYOTOV\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>02.EmployeesWithSalaryAboveNumber.sql</FullPath>
+          <FullPath>02.CreateTableEmails.sql</FullPath>
         </FileNode>
-        <FileNode Name="03.TownNamesStartingWith.sql">
+        <FileNode Name="03.DepostiMoney.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:IMPANAYOTOV\SQLEXPRESS:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>IMPANAYOTOV\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>03.TownNamesStartingWith.sql</FullPath>
+          <FullPath>03.DepostiMoney.sql</FullPath>
         </FileNode>
-        <FileNode Name="04.EmplFromTown.sql">
+        <FileNode Name="04.WithdrawMoney.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:IMPANAYOTOV\SQLEXPRESS:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>IMPANAYOTOV\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>04.EmplFromTown.sql</FullPath>
+          <FullPath>04.WithdrawMoney.sql</FullPath>
         </FileNode>
-        <FileNode Name="05.SalaryLevelFunc.sql">
+        <FileNode Name="05.MoneyTransfer.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:IMPANAYOTOV\SQLEXPRESS:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>IMPANAYOTOV\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>05.SalaryLevelFunc.sql</FullPath>
+          <FullPath>05.MoneyTransfer.sql</FullPath>
         </FileNode>
-        <FileNode Name="06.EmplBySalaryLevel.sql">
+        <FileNode Name="06.Trigger.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:IMPANAYOTOV\SQLEXPRESS:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>IMPANAYOTOV\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>06.EmplBySalaryLevel.sql</FullPath>
+          <FullPath>06.Trigger.sql</FullPath>
         </FileNode>
-        <FileNode Name="07.DefineFunc.sql">
+        <FileNode Name="07.MassiveShopping.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:IMPANAYOTOV\SQLEXPRESS:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>IMPANAYOTOV\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>07.DefineFunc.sql</FullPath>
+          <FullPath>07.MassiveShopping.sql</FullPath>
         </FileNode>
-        <FileNode Name="08.DeleteEmplAndDepart.sql">
+        <FileNode Name="08.EmplWithThreeProjects.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:IMPANAYOTOV\SQLEXPRESS:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>IMPANAYOTOV\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>08.DeleteEmplAndDepart.sql</FullPath>
+          <FullPath>08.EmplWithThreeProjects.sql</FullPath>
         </FileNode>
-        <FileNode Name="09.FindFullName.sql">
+        <FileNode Name="09.DeleteEmpls.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:IMPANAYOTOV\SQLEXPRESS:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>IMPANAYOTOV\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>09.FindFullName.sql</FullPath>
-        </FileNode>
-        <FileNode Name="10.PeopleWithBalanceHigherThan.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:IMPANAYOTOV\SQLEXPRESS:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>IMPANAYOTOV\SQLEXPRESS</AssociatedConnSrvName>
-          <AssociatedConnUserName />
-          <FullPath>10.PeopleWithBalanceHigherThan.sql</FullPath>
-        </FileNode>
-        <FileNode Name="11.FutureValueFunc.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:IMPANAYOTOV\SQLEXPRESS:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>IMPANAYOTOV\SQLEXPRESS</AssociatedConnSrvName>
-          <AssociatedConnUserName />
-          <FullPath>11.FutureValueFunc.sql</FullPath>
-        </FileNode>
-        <FileNode Name="12.CalcInterest.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:IMPANAYOTOV\SQLEXPRESS:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>IMPANAYOTOV\SQLEXPRESS</AssociatedConnSrvName>
-          <AssociatedConnUserName />
-          <FullPath>12.CalcInterest.sql</FullPath>
-        </FileNode>
-        <FileNode Name="13.ScalarFuncCashInUserGamesOddRows.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:IMPANAYOTOV\SQLEXPRESS:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>IMPANAYOTOV\SQLEXPRESS</AssociatedConnSrvName>
-          <AssociatedConnUserName />
-          <FullPath>13.ScalarFuncCashInUserGamesOddRows.sql</FullPath>
+          <FullPath>09.DeleteEmpls.sql</FullPath>
         </FileNode>
       </Items>
     </LogicalFolder>

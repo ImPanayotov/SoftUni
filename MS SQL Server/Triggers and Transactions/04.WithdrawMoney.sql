@@ -1,0 +1,27 @@
+USE Bank
+
+CREATE PROC usp_WithdrawMoney (@AccountId INT, @MoneyAmount MONEY) AS
+BEGIN
+	BEGIN TRAN
+		IF (@MoneyAmount > 0)
+		BEGIN
+			UPDATE Accounts
+			SET Balance -= @MoneyAmount
+			WHERE Id = @AccountId
+
+			IF @@ROWCOUNT != 1
+			BEGIN
+				ROLLBACK
+				RAISERROR('Invalid account!', 16, 1)
+				RETURN
+			END
+		END
+	COMMIT
+END
+GO
+
+exec usp_WithdrawMoney 1,10
+
+SELECT * FROM Logs
+SELECT *
+FROM NotificationEmails;

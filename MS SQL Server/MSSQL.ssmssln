@@ -19,6 +19,8 @@ Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Indices And Data Aggregatio
 EndProject
 Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Functions, Procedures, Triggers and Transactions", "Functions, Procedures, Triggers and Transactions\Functions, Procedures, Triggers and Transactions.ssmssqlproj", "{7F6C0A9B-EF36-43C7-9D41-7770BFD217D2}"
 EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Triggers and Transactions", "Triggers and Transactions\Triggers and Transactions.ssmssqlproj", "{DD789500-DF87-4F6F-99AB-75B81A118879}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Default|Default = Default|Default
@@ -31,8 +33,9 @@ Global
 		{740F0304-BB1A-40F3-A7C8-FFE98DA87DC0}.Default|Default.ActiveCfg = Default
 		{BE800390-1A77-404C-BCE4-211B4FDEF927}.Default|Default.ActiveCfg = Default
 		{5EDF4FDC-9B3A-429C-84D3-142722504A5F}.Default|Default.ActiveCfg = Default
-		{B3F7E966-FD55-4542-9837-850315CE859B}.Default|Default.ActiveCfg = Default
 		{7F6C0A9B-EF36-43C7-9D41-7770BFD217D2}.Default|Default.ActiveCfg = Default
+		{664706F9-CCBD-4CFB-83B9-CA1B9D185C54}.Default|Default.ActiveCfg = Default
+		{DD789500-DF87-4F6F-99AB-75B81A118879}.Default|Default.ActiveCfg = Default
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
