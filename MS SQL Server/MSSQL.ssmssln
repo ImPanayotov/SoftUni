@@ -21,6 +21,16 @@ Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Functions, Procedures, Trig
 EndProject
 Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Triggers and Transactions", "Triggers and Transactions\Triggers and Transactions.ssmssqlproj", "{DD789500-DF87-4F6F-99AB-75B81A118879}"
 EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Additional Exercises", "Additional Exercises\Additional Exercises.ssmssqlproj", "{21479542-F3F6-4880-B7D2-E96FCEC03873}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exams", "Exams", "{ACFD68B3-2257-4DAC-8A8C-730B1DE069AE}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Exam Prep 01", "Exam Prep 01\Exam Prep 01.ssmssqlproj", "{73D53B2A-98CB-4E51-992E-2427B96676EC}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Exam Prep 2", "Exam Prep 2\Exam Prep 2.ssmssqlproj", "{1029ED28-8663-4848-A809-560BCE86160F}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "13.02.2021", "13.02.2021\13.02.2021.ssmssqlproj", "{E915E07C-A391-4C68-8C50-29C9E771929E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Default|Default = Default|Default
@@ -34,11 +44,20 @@ Global
 		{BE800390-1A77-404C-BCE4-211B4FDEF927}.Default|Default.ActiveCfg = Default
 		{5EDF4FDC-9B3A-429C-84D3-142722504A5F}.Default|Default.ActiveCfg = Default
 		{7F6C0A9B-EF36-43C7-9D41-7770BFD217D2}.Default|Default.ActiveCfg = Default
-		{664706F9-CCBD-4CFB-83B9-CA1B9D185C54}.Default|Default.ActiveCfg = Default
 		{DD789500-DF87-4F6F-99AB-75B81A118879}.Default|Default.ActiveCfg = Default
+		{21479542-F3F6-4880-B7D2-E96FCEC03873}.Default|Default.ActiveCfg = Default
+		{73D53B2A-98CB-4E51-992E-2427B96676EC}.Default|Default.ActiveCfg = Default
+		{E67D8131-3B84-4E62-B393-4E0496B80CDD}.Default|Default.ActiveCfg = Default
+		{1029ED28-8663-4848-A809-560BCE86160F}.Default|Default.ActiveCfg = Default
+		{E915E07C-A391-4C68-8C50-29C9E771929E}.Default|Default.ActiveCfg = Default
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{73D53B2A-98CB-4E51-992E-2427B96676EC} = {ACFD68B3-2257-4DAC-8A8C-730B1DE069AE}
+		{1029ED28-8663-4848-A809-560BCE86160F} = {ACFD68B3-2257-4DAC-8A8C-730B1DE069AE}
+		{E915E07C-A391-4C68-8C50-29C9E771929E} = {ACFD68B3-2257-4DAC-8A8C-730B1DE069AE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FCD8B931-4DCA-4003-9CC0-E3B0DB63EAD5}
