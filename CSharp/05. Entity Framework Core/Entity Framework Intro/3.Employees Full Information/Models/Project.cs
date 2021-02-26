@@ -2,13 +2,12 @@
 using System.Collections.Generic;
 
 namespace SoftUni.Models
-
 {
     public partial class Project
     {
         public Project()
         {
-            EmployeesProjects = new HashSet<EmployeeProject>();
+            this.EmployeesProjects = new HashSet<EmployeeProject>();
         }
 
         public int ProjectId { get; set; }

@@ -7,7 +7,7 @@ namespace SoftUni.Models
     {
         public Department()
         {
-            Employees = new HashSet<Employee>();
+            this.Employees = new HashSet<Employee>();
         }
 
         public int DepartmentId { get; set; }

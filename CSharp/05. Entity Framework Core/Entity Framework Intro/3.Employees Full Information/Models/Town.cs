@@ -2,13 +2,12 @@
 using System.Collections.Generic;
 
 namespace SoftUni.Models
-
 {
     public partial class Town
     {
         public Town()
         {
-            Addresses = new HashSet<Address>();
+            this.Addresses = new HashSet<Address>();
         }
 
         public int TownId { get; set; }
