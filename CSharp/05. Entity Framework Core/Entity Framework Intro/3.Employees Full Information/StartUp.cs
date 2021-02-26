@@ -2,6 +2,7 @@
 using SoftUni.Models;
 using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 
@@ -15,9 +16,40 @@ namespace SoftUni
             // Console.WriteLine(GetEmployeesFullInformation(context)); // 03.
             // Console.WriteLine(GetEmployeesWithSalaryOver50000(context)); // 04.
             // Console.WriteLine(GetEmployeesFromResearchAndDevelopment(context)); // 05.
-            Console.WriteLine(AddNewAddressToEmployee(context));
+            // Console.WriteLine(AddNewAddressToEmployee(context)); // 06.
             
 
+        }
+
+        public static string GetEmployeesInPeriod(SoftUniContext context)
+        {
+            StringBuilder result = new StringBuilder();
+
+            var employees = context.Employees
+                .Select(e => new
+                {
+                    e.FirstName,
+                    e.LastName,
+                    ManagerFirstName = e.Manager.FirstName,
+                    ManagerLastName = e.Manager.LastName,
+                    Projects = e.EmployeesProjects
+                    .Select(ep => new
+                    {
+                        ProjectName = ep.Project.Name,
+                        StartDate = ep.Project.StartDate.ToString("M/d/yyyy h:mm:ss tt", CultureInfo.InvariantCulture),
+                        EndDate = ep.Project.EndDate.HasValue ?
+                                ep.Project.StartDate.ToString("M/d/yyyy h:mm:ss tt", CultureInfo.InvariantCulture)
+                                : "not finished"
+                    }).ToList()
+                })
+                .ToList();
+
+            foreach (var e in employees)
+            {
+                result.AppendLine($"{e.FirstName} {e.LastName} from {e.Department.Name} - ${e.Salary:f2}");
+            }
+
+            return result.ToString();
         }
 
         public static string AddNewAddressToEmployee(SoftUniContext context)
