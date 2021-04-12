@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace _01._Student_System.Data.Models
+namespace P01_StudentSystem.Data.Models
 {
-    class Student
+    public class Student
     {
     }
 }

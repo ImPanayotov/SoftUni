@@ -1,8 +1,8 @@
 ﻿using System;
 
-namespace _01._Student_System
+namespace P01_StudentSystem
 {
-    class Program
+    class StartUp
     {
         static void Main(string[] args)
         {
